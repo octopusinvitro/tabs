@@ -19,6 +19,8 @@ var
     ],
     css:   './scss/main.scss',
     js: [
+           './js/src/validator.js',
+           './js/src/parser.js',
            './js/plugins.js',
            './js/main.js'
     ]
@@ -79,6 +81,9 @@ gulp.task('server', function() {
   browsersync.init({
     server: {
       baseDir: dist.root,
+      routes: {
+        "/test" : 'js'
+      }
     },
     port:   4000,
     notify: false,

@@ -47,7 +47,7 @@ $ gulp watch
 
 ## Testing
 
-Open the `js/SpecHelper.html` file in a browser.
+Open `http://localhost:4000/test/specrunner.html` in a browser.
 
 ## Dedicated site
 
