@@ -23,6 +23,7 @@ var
            './js/src/parser.js',
            './js/src/logger.js',
            './js/src/connection.js',
+           './js/src/ui.js',
            './js/plugins.js',
            './js/main.js'
     ]
