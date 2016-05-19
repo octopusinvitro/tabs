@@ -21,6 +21,8 @@ var
     js: [
            './js/src/validator.js',
            './js/src/parser.js',
+           './js/src/logger.js',
+           './js/src/connection.js',
            './js/plugins.js',
            './js/main.js'
     ]
