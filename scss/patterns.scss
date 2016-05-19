@@ -1,0 +1,58 @@
+.tabs__label {
+  display: inline-block;
+  width: 100%;
+  min-height: 3em;
+  line-height: 3;
+  color: $background-color;
+  background-color: $brand-color-light;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.tabs__label:hover,
+.active {
+  color: $brand-color;
+  background-color: $background-color;
+}
+
+#tab1.active ~ #tab-content1,
+#tab2.active ~ #tab-content2,
+#tab3.active ~ #tab-content3 {
+  display: block;
+}
+
+.tabs__content {
+  box-sizing: border-box;
+  display: none;
+  width: 100%;
+  margin: auto;
+  padding: .5em;
+  counter-reset: li;
+}
+
+.tabs__content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article__link {
+  display: block;
+  text-decoration: none;
+  color: $text-color;
+}
+
+.article__title {
+  display: inline;
+  font-size: 1em;
+}
+
+.article__title:before {
+  counter-increment: li;
+  content: counter(li);
+  padding-right: 1em;
+}
+
+.article__text {
+  margin: 0;
+}

@@ -1,3 +1,17 @@
 .small {
   font-size: $small-font-size;
 }
+
+.tabs {
+  max-width: 35em;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.article {
+  padding: .5em;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  animation: scale 0.7s ease-in-out;
+}

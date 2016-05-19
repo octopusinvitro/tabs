@@ -4,8 +4,28 @@
     Modify as content requires.
   ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 40em) {
+  .tabs__label {
+    width: 30%;
+    border-top: 4px solid transparent;
+  }
+
+  .tabs__label:hover,
+  .active {
+    border-top: 4px solid $brand-color;
+  }
+
+  .tabs__content {
+    padding: 1em 5%;
+  }
+
+  .article {
+    text-align: justify;
+  }
+
+  .article:hover {
+    background-color: $selection-color;
+  }
 }
 
 @media print,
